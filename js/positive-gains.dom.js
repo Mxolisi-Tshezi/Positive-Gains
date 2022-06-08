@@ -8,6 +8,6 @@ const  myPositiveGain = positiveGains();
 calculateButton.addEventListener('click', function(){
     myPositiveGain.enterHeight(Number(height.value));
     myPositiveGain.enterMass(Number(mass.value));
-    Display.innerHTML = myPositiveGain.retrurnBMI();
+    Display.innerHTML = myPositiveGain.returnBMI();
 
 } )

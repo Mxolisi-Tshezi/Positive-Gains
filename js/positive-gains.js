@@ -10,7 +10,7 @@ function positiveGains() {
     function enterHeight(myHeight){
         heightIn = myHeight
     }
-    function retrurnBMI(){
+    function returnBMI(){
          calculatedBMI = massIn/heightIn;
          if(calculatedBMI< 18.5){
          return calculatedBMI.toFixed(2);
@@ -23,7 +23,7 @@ function positiveGains() {
     return{
         enterHeight,
         enterMass,
-        retrurnBMI
+        returnBMI
 
     }
 

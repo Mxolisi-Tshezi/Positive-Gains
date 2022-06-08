@@ -12,7 +12,13 @@ function positiveGains() {
     }
     function returnBMI(){
          calculatedBMI = massIn/heightIn;
-         return calculatedBMI;
+         if(calculatedBMI< 18.5){
+         return calculatedBMI.toFixed(2);
+         }
+         else if(){
+             
+         }
+
     }
     return{
         enterHeight,

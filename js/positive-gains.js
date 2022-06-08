@@ -1,17 +1,17 @@
 function positiveGains() {
-    var massIn = 0;
+    var WeightIn = 0;
     var heightIn = 0;
     var calculatedBMI = 0;
 
     function enterMass(myMass){
-        massIn = myMass
+        WeightIn = myMass;
 
     }
     function enterHeight(myHeight){
-        heightIn = myHeight
+        heightIn = (myHeight)^2
     }
     function returnBMI(){
-         calculatedBMI = (massIn/(heightIn**2)).toFixed(2);
+         calculatedBMI = (WeightIn/heightIn).toFixed(2);
          if(calculatedBMI <= 18.50){
          return calculatedBMI + "    Underweight";
          }

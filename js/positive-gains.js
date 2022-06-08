@@ -1,6 +1,7 @@
 function positiveGains() {
     var massIn = 0;
     var heightIn = 0;
+    var calculatedBMI = 0;
 
     function enterMass(myMass){
         massIn = myMass
@@ -10,7 +11,8 @@ function positiveGains() {
         heightIn = myHeight
     }
     function retrurnBMI(){
-         massIn/heightIn;
+         calculatedBMI = massIn/heightIn;
+         return calculatedBMI;
     }
     return{
         enterHeight,

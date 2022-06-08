@@ -35,10 +35,16 @@ h4{
 .Lose{
     width: 180px;
     height: 35px;
-
+    color: #000000;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .Gain{
     width: 180px;
     height: 35px;
-
+    color: #000000;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }

@@ -75,3 +75,19 @@ h3{
     height: 29px;
     color: #FFFFFF;
 }
+
+.Display_BMI{
+    text-align: center;
+
+}
+.Text_BMI{
+    display: inline-block;
+    width: 300px;
+    color: #FFFFFF;
+    background-color: #344e41;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 4px;
+    border-radius: 5px;
+
+}

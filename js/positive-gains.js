@@ -8,7 +8,7 @@ function positiveGains() {
 
     }
     function enterHeight(myHeight){
-        heightIn = (myHeight)^2
+        heightIn = (myHeight**2)
     }
     function returnBMI(){
          calculatedBMI = (WeightIn/heightIn).toFixed(2);

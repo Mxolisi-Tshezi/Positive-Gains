@@ -12,13 +12,13 @@ function positiveGains() {
     }
     function returnBMI(){
          calculatedBMI = (massIn/heightIn).toFixed(2);
-         if(calculatedBMI < 18.50){
+         if(calculatedBMI <= 18.50){
          return calculatedBMI + "    Underweight";
          }
-         if(18.50 < calculatedBMI && calculatedBMI < 25.00){
+         if(18.50 < calculatedBMI && calculatedBMI <= 25.00){
             return calculatedBMI + "    Optimal";
          }
-         if(25.00 < calculatedBMI && calculatedBMI < 30.00){
+         if(25.00 < calculatedBMI && calculatedBMI <= 30.00){
             return calculatedBMI + "    Overweight";
          }
          if(30.00< calculatedBMI){

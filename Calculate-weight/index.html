@@ -29,18 +29,24 @@
           <input class="Calculate1" type="button" value="Calculate"/>
         </form>
         <form class="Display_Goal">
-          <label class="Text_Goal" for="Calculated_Goal">You have to lose/gain ? in ? days</label>
+          <label class="Text_Goal" for="Calculated_Goal">You have to lose/gain ? in ? weeks</label>
         </form>
 
     </div>
     <canvas id="myChart" width="30" height="10" style="background-color:powderblue; opacity: 0.8" ></canvas>z
     <script type="text/javascript">
+
+
 var canvas = document.getElementById('myChart');
+var firstValue = document.getElementById('time');
+const calculateButton = document.querySelector('.Calculate1');
+
+
 var data = {/*from   w  ww . j a  v  a2s.  c o m*/
-  labels: ["Day1", "Day2", "Day3", "Day4", "Day5", "Day6", "Day7"],
+  labels: ["week2", "week2", "week3", "week4", "week5", "week6", "week7", "week8", "week9", "week10", "week11", "week12", "week13" ],
   datasets: [
       {
-          label: "My First dataset",
+          label: "Tracking the weight Gain/Loss",
           fill: false,
           lineTension: 0.2,
           backgroundColor: "rgba(255,255,255)",
@@ -58,7 +64,7 @@ var data = {/*from   w  ww . j a  v  a2s.  c o m*/
           pointHoverBorderWidth: 2,
           pointRadius: 5,
           pointHitRadius: 10,
-          data: [65, 59, 80, 0, 56, 55, 40],
+          data: [100, 99, 97, 94, 92, 89, 82, 81.5, 82, 83, 83, 83, 80, ],
       }
   ]
 };
@@ -86,7 +92,6 @@ function adddata(){
 myLineChart.data.labels[7] = "test add";
 myLineChart.update();
 }
-
     </script>
 </body>
 </html>

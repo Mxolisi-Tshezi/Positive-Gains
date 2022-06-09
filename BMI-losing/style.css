@@ -5,9 +5,10 @@ body{
     background-attachment: fixed;
     background-position: center center;
     margin: 0px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 
 }
-.Enterdata{
+.EnterLossdata{
     text-align: center;
     padding: 30px;
 }
@@ -28,7 +29,7 @@ h3{
     margin-top: 150px;
     font-size: 2em;
  }
- .data{
+ .Lossdata{
     display: inline-block;
     width: 300px;
     color: #000000;
@@ -39,7 +40,7 @@ h3{
     padding-left: 10px;
     margin-bottom: 4px;
 }
-.Calculate{
+.CalculateLoss{
     padding: 5px 10px;
     margin-top: 5px;
     width: 100px;
@@ -50,11 +51,11 @@ h3{
     border-radius: 5px;
 }
 
-.next-step{
+.next-stepLoss{
     text-align: center;
     padding: 30px;
 }
-.next{
+.nextLoss{
     padding: 5px 10px;
     width: 100px;
     background-color: #219EBC;
@@ -63,7 +64,7 @@ h3{
     color: #FFFFFF;
     border-radius: 5px;
 }
- #mass{
+ #massLoss{
     padding: 5px 10px;
     width: 60px;
     background-color: #219EBC;
@@ -72,7 +73,7 @@ h3{
     height: 29px;
     color: #FFFFFF;
 }
-#age{
+#heightLoss{
     padding: 5px 10px;
     width: 60px;
     background-color: #219EBC;
@@ -81,20 +82,11 @@ h3{
     height: 29px;
     color: #FFFFFF;
 }
-#height{
-    padding: 5px 10px;
-    width: 60px;
-    background-color: #219EBC;
-    border: 5px;
-    border-radius: 5px;
-    height: 29px;
-    color: #FFFFFF;
-}
-.Display_BMI{
+.Display_BMILoss{
     text-align: center;
 
 }
-.Text_BMI{
+.Text_BMILoss{
     display: inline-block;
     width: 300px;
     color: #FFFFFF;

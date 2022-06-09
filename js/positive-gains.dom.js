@@ -1,13 +1,13 @@
-const calculateButton = document.querySelector('.Calculate');
-const mass = document.getElementById('mass');
-const height = document.getElementById('height');
-const Display = document.querySelector('.Text_BMI')
+const calculateButtonForGain = document.querySelector('.CalculateGain');
+const massForGain = document.getElementById('mass_Gain');
+const heightForGain = document.getElementById('height_Gain');
+const DisplayForGain = document.querySelector('.Text_BMIGain')
 
 const  myPositiveGain = positiveGains();
 
-calculateButton.addEventListener('click', function(){
-    myPositiveGain.enterHeight(Number(height.value));
-    myPositiveGain.enterMass(Number(mass.value));
-    Display.innerHTML = myPositiveGain.returnBMI();
+calculateButtonForGain.addEventListener('click', function(){
+    myPositiveGain.enterHeight(Number(heightForGain.value));
+    myPositiveGain.enterMass(Number(massForGain.value));
+    DisplayForGain.innerHTML = myPositiveGain.returnBMI();
 
 } )

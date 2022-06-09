@@ -10,3 +10,4 @@ calculateButtonForLoss.addEventListener("click", function(){
     myPositiveGain.enterMass1(Number(massForLoss.value));
     DisplayForLoss.innerHTML = myPositiveGain.returnBMI1();
 })
+

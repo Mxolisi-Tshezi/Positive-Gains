@@ -1,17 +1,35 @@
-function calculateGoal1(){
+function calculateMyGoal(){
 
-var currentWeight1 = 0;
-var goalWeight1 = 0;
-// var timeInDays = 0;
-var weightDifference1 = 0;
+    var takemyWeight = 0;
+    var takemyGoal = 0;
+    var returnTotal1 = 0;
+    var goalTime = 0;
 
+        function getCurrentWeight(Weight1){
+            takemyWeight = Weight1
 
-function weightLoss(){
-    weightDifference1 = currentWeight1 - goalWeight1;
-    return "You need to lose " + weightDifference1 + " in order to reach your goal";
+        }
+        function getCurrentGoal(Goal1){
+            takemyGoal = Goal1
+        }
+        function timeFrame(setTime){
+            goalTime = setTime;
+
+        }
+
+        function returnTime(){
+            return goalTime;
+        }
+        function returnDifference(){
+            returnTotal1 = takemyWeight - takemyGoal;
+            return "You have to loose " + returnTotal1 +"kg" +" in " + goalTime + " weeks";
+
+            }
+        return{
+            getCurrentGoal,
+            getCurrentWeight,
+            returnDifference,
+            timeFrame,
+            returnTime
+        }
 }
- return {
-     weightLoss
- }
-}
-

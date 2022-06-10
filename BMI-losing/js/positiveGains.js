@@ -13,7 +13,7 @@ function positiveGains1() {
     function returnBMI1(){
          calculatedBMI1 = (WeightIn1/heightIn1).toFixed(2);
          if(calculatedBMI1 <= 18.50){
-         return calculatedBMI1 + "    Underweight";
+         return calculatedBMI1 + "    Underweight" ;
          }
          if(18.50 < calculatedBMI1 && calculatedBMI1 <= 25.00){
             return calculatedBMI1 + "    Optimal";
@@ -22,7 +22,7 @@ function positiveGains1() {
             return calculatedBMI1 + "    Overweight";
          }
          if(30.00< calculatedBMI1){
-            return calculatedBMI1 + "    Obese";
+            return calculatedBMI1 + "     Significantly Overweight";
          }
 
     }

@@ -22,7 +22,7 @@ function positiveGains() {
             return calculatedBMI + "    Overweight";
          }
          if(30.00< calculatedBMI){
-            return calculatedBMI + "    Obese";
+            return calculatedBMI + "     Significantly Overweight";
          }
 
     }

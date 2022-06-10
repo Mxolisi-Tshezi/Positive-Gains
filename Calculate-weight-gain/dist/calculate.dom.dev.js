@@ -57,3 +57,5 @@ function add2array2() {
   console.log(yValues);
   mychart.update();
 }
+
+var x = JSON.parse(localStorage.getItem("fixedNodes"));

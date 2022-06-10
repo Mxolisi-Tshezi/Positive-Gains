@@ -13,6 +13,7 @@ calculateButton1.addEventListener("click", function(){
 
 })
 
+
 var xValues = [];
 var yValues = [];
 
@@ -56,3 +57,5 @@ var count2 = 0;
             console.log(yValues)
             mychart.update();
         }
+
+        const xValues = JSON.parse(localStorage.getItem("weeksIn"));

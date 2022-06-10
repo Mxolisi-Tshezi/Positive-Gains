@@ -58,4 +58,3 @@ var count2 = 0;
             mychart.update();
         }
 
-        const xValues = JSON.parse(localStorage.getItem("weeksIn"));

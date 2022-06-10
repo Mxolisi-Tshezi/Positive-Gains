@@ -22,7 +22,7 @@ function calculateMyGoal(){
         }
         function returnDifference(){
             returnTotal1 = takemyWeight - takemyGoal;
-            return "You have to loose " + returnTotal1 +"kg" +" in " + goalTime + " weeks";
+            return "You have to lose " + returnTotal1 +"kg" +" in " + goalTime + " weeks";
 
             }
         return{

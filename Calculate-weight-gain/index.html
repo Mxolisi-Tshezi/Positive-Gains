@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
     <title>Calculating your weight</title>
 </head>
 <body>
@@ -27,8 +28,15 @@
           <input class="Calculate1" type="button" value="Calculate"/>
         </form>
         <form class="Display_Goal">
-          <label class="Text_Goal" for="Calculated_Goal">You have to lose/gain ? in ? days</label>
+          <label class="Text_Goal" for="Calculated_Goal">You have to gain ? in ? weeks</label>
         </form>
+        <div class="graphData">
+          <h3 id="shopping"></h3> <br>
+          <button onclick='add2array("Week")'> Time Frame </button>
+          <input type="number" name="numberInput" id="numberInput" max="20" min="1">
+          <button onclick='add2array2()'> Current weight </button>
+          </div>
+          <canvas id="myChart" style="width:100%;max-width:50%;max-height:500px;background-color:powderblue; opacity: 0.65; margin-left:auto;margin-right:auto;"></canvas>
 
     </div>
     <script src="calculate.js" charset="utf-8"></script>

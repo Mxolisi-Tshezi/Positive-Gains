@@ -25,11 +25,16 @@ function calculateMyGoal(){
             return "You have to lose " + returnTotal1 +"kg" +" in " + goalTime + " weeks";
 
             }
+            function returnDiff(){
+                returnTotal1 = takemyWeight - takemyGoal;
+                return returnTotal1;
+                }
         return{
             getCurrentGoal,
             getCurrentWeight,
             returnDifference,
             timeFrame,
-            returnTime
+            returnTime,
+            returnDiff
         }
 }
